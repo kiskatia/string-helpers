@@ -8,23 +8,18 @@ composer install
 ## Usage
 
 ```php
-echo \StringHelpers\Str::plural('bus') . PHP_EOL;
-echo str_plural('bus') . PHP_EOL;
+echo \StringHelpers\Str::plural('bus');
 // output: buses
 
-echo \StringHelpers\Str::singular('buses') . PHP_EOL;
-echo str_singular('buses') . PHP_EOL;
+echo \StringHelpers\Str::singular('buses');
 // output: bus
 
-echo \StringHelpers\Str::snake('Hello there') . PHP_EOL;
-echo snake_case('Hello there') . PHP_EOL;
+echo \StringHelpers\Str::snake('Hello there');
 // output: hello_there
 
-echo \StringHelpers\Str::camel('Hello there') . PHP_EOL;
-echo camel_case('Hello there') . PHP_EOL;
+echo \StringHelpers\Str::camel('Hello there');
 // output: helloThere
 
-echo \StringHelpers\Str::slug('we wish you a merry christmas') . PHP_EOL;
-echo str_slug('we wish you a merry christmas') . PHP_EOL;
+echo \StringHelpers\Str::slug('we wish you a merry christmas');
 // output: we-wish-you-a-merry-christmas
 ```
